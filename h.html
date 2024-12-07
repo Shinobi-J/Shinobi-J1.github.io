@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Purchase Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="webpage.html">Floating Games</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="webpage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catogary.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="News.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="wp14550067-silent-hill-2-wallpapers.jpg" alt="Game Cover" class="img-fluid rounded mb-4">
+            </div>
+            <div class="col-md-6">
+                <h1 class="mb-4">Silent Hill 2</h1>
+                <p class="lead mb-4">Experience the ultimate adventure in this thrilling new release!</p>
+                <h2 class="mb-3">$58.00</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="quantity" value="1" min="1" max="10">
+                    </div>
+                    <div class="mb-3">
+                        <label for="platform" class="form-label">Platform</label>
+                        <select class="form-select" id="platform">
+                            <option value="pc">PC</option>
+                            <option value="ps5">PlayStation 5</option>
+                            <option value="xbox">Xbox Series X</option>
+                            <option value="switch">Nintendo Switch</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Add to Cart</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <h3>Game Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h3 class="mt-4">System Requirements</h3>
+                <ul>
+                    <li>OS: Windows 10 64-bit</li>
+                    <li>Processor: Intel Core i7-6600K or AMD Ryzen 5 1600</li>
+                    <li>Memory: 16 GB RAM</li>
+                    <li>Graphics: NVIDIA GeForce RTX 2060 or AMD Radeon RX 5700</li>
+                    <li>Storage: 100 GB available space</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Customer Reviews</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazing Game!</h5>
+                        <p class="card-text">This game exceeded all my expectations. The graphics are stunning and the gameplay is addictive.</p>
+                        <p class="card-text"><small class="text-muted">Posted by John D. on May 1, 2023</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Great Value</h5>
+                        <p class="card-text">Tons of content for the price. I've been playing for weeks and still discovering new things.</p>
+                        <p class="card-text"><small class="text-muted">Posted by Sarah M. on April 28, 2023</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2023 Floating Games. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,11 @@
+.hero-section{
+    background-image: url('wp7627052-black-ps5-wallpapers.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#image{
+    background-image: url('wp14036527-warhammer-40000-space-marine-2-wallpapers.jpg');
+}
